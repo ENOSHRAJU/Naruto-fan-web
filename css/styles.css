@@ -1,0 +1,285 @@
+/* SPOILER ALRERT */
+#spoiler-div {
+    background-color: black;
+    padding: 10px;
+}
+#spoiler-div div {
+    text-align: center;
+    color: #e08b13;
+    font-size: 30px;
+}
+
+/* STANDARD ELEMENTS */
+body {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 65px;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+h5,h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 20px; 
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    box-shadow: 0 12px 20px rgb(0,0,0,0.3);
+    transition: all 1s ease-in-out;
+    padding: 5px 50px 3px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    transition: all 1s ease-in-out;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    background: -webkit-linear-gradient(rgba(241, 162, 2, 0.8),rgb(200, 3, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.brand-nav {
+    font-weight: 900;
+    font-size: 30px;
+    margin-right: 40px;
+    color: #EA9828;
+    font-family: 'Montserrat', sans-serif;
+}
+.button-nav {
+    font-weight: 800;
+    color: #EA9828;
+    background-color: black;
+}
+.button-nav:hover {
+    background-color: #EA9828;
+}
+
+/* PROJECT CLASSES */
+
+.bg-cover {
+    background-image: url(https://wallpapers.com/images/hd/naruto-sasuke-and-sakura-running-r5aa4v805ovp5cv4.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-heading {
+    text-align: center;
+    margin: 0 auto 10px;
+}
+.heading-divider {
+    height: 7%;
+    width: 8%;
+    border-style: none;
+    border-radius: 5%;
+    margin: 0 auto;
+    background: linear-gradient(to right,rgba(241, 162, 2, 0.8),red);
+}
+.first-section .card, .card-body-top img, .card, .carousel-item img {
+    border-style: none;
+    border-radius: 3%;
+}
+
+/* FIRST SECTION */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,rgba(247, 183, 51,0.8),rgb(252, 74, 26,0.7));
+    z-index: -1;
+}
+.first-section {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 40px;
+}
+.first-section-heading {
+    padding: 50px 10% 10px;
+    font-weight: 595;
+    color: rgb(2, 1, 0);
+}
+
+/* CARDS */
+
+.first-section .card {
+    margin: 10%;
+    transition: all 0.8s ease-in-out;
+}
+.custom-row {
+    padding: 0 8%;
+}
+.custom-col {
+    margin: 10px auto;
+}
+.card-body-top {
+    height: 400px;
+    padding: 18px;
+    transition: all 0.5s ease-in;
+}
+.card-body-top:hover {
+    padding: 13px;
+}
+.card-body-bottom-1 {
+    text-align: center;
+    padding: 10px 13% 20px;
+    font-weight: 570;
+    color:#e08b13
+}
+.card-body-bottom-2 {
+    text-align: center;
+    padding: 10px 13% 20px;
+    font-weight: 570;
+    color: rgb(17, 182, 127);
+}
+.firstsection-image {
+    width: 100%;
+    height: 100%;
+    box-shadow: 12px 12px 24px #e08b13;
+}
+.firstsection-image2 {
+    width: 100%;
+    height: 100%;
+    box-shadow: 12px 12px 24px aquamarine; 
+}
+.adjust-button-1 {
+    /* background-color: #ffa930; */
+    background: linear-gradient(to right ,rgb(255, 165, 0,0.7),rgb(255, 0, 0,0.7));
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 100px;
+    transition: all 0.5s ease-in;
+}
+.adjust-button-2 {
+    /* background-color: rgb(2, 251, 168); */
+    background: linear-gradient(to right, rgb(127, 255, 212,0.7),rgba(4, 142, 96, 0.7));
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 100px;
+    transition: all 0.5s ease-in;
+}
+.adjust-button-1:hover,.adjust-button-2:hover {
+    transform: translateY(-5px);
+}
+
+
+/* SECOND-SECION */
+
+.second-section {
+    padding: 6% 0 10%;
+}
+.section2-card {
+    box-shadow: 8px 8px 15px rgba(0,0,0,0.2) ;
+    margin: 20px;
+    transition: all 0.8s ease-in-out;
+}
+.section2-card:hover {
+    margin: 13px;
+    background: linear-gradient(to right, rgb(247, 183, 51),rgba(252, 74, 26,0.8));
+}
+.card-body-top2 {
+    text-align: center;
+    padding: 8%;
+}
+.second-section .card-body-bottom-1 {
+    color: black; 
+}
+
+/* THIRD-SECION */
+
+.third-section {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+.slide-box {
+    height: 50%;
+    width: 60%;
+    margin: 20px auto;
+}
+.slide-box img {
+    height: 100%;
+    width: 100%;
+    box-shadow: 12px 12px 24px rgba(0,0,0,0.4);
+}
+.slide-box h5 {
+    margin: 20px;
+}
+.slide-box p {
+    width: 60%;
+    margin: 10px auto;
+}
+.carousel-item {
+    padding: 5%;
+}
+
+/* FOURTH SECTION */
+
+.fourth-section {
+    padding: 8% 0 5%;
+}
+.fourth-section img {
+    box-shadow: 12px 12px 12px rgba(0,0,0,0.4);
+}
+.fourth-section .card-body {
+    padding: 8% 20%;
+    text-align: center;
+}
+.fourth-section .card-body:hover {
+    color: #e08b13;
+}
+.fourth-section .card {
+    margin: 20px 20px 15%;
+    box-shadow: 12px 12px 24px rgba(0,0,0,0.4);
+    transition: all 0.8s ease-in-out;
+}
+.fourth-section .card:hover {
+    transform: translateY(-8px);
+}
+.fourth-section .card-body-top {
+    height: 70%;
+}
+
+/* FOOTER SECTION */
+
+.foot-section {
+    background-color: black;
+    color: #e08b13;
+    padding: 5% 10%;
+    text-align: center;
+    line-height: 1.5;
+}
+.foot-section h3 {
+    color: aliceblue;
+    margin: 2%;
+}
+.foot-section a,.foot-section p {
+    margin: 3%;
+    padding: 0;
+    color: #e08b13;
+}
+.foot-section i {
+    transition: all 0.7s ease-in-out;
+}
+.foot-section i:hover {
+    color: aliceblue;
+    transform: translateY(-8px);
+}
+
+
+
+@media(max-width:600px) {
+    .card-body-top {
+        height: 280px;
+    }
+    .foot-section i {
+        margin: 30px;
+    }
+}
